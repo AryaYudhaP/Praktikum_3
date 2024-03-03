@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Halaman Beranda</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Arya Yudha">
+    <meta name="nim" content="234311007">
+
+    <style>
+            * {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, Helvetica , sans-serif;
+    }
+    header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+    }
+    nav {
+        float: left;
+        width: 30%;
+        height: 300px;
+        background: #ccc;
+        padding: 20px;
+    }
+    article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #e3e0e0;
+        height: 300px;
+    }
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+    @media (max-width: 600px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+    }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h2>Judul Website</h2>  
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Gambar</a></li>
+                <li><a href="">Event</a></li>
+                <li><a href="">Audio</a></li>
+                <li><a href="">Video</a></li>
+                <li><a href="">SVG</a></li>
+                <li><a href="">Canvas</a></li>
+            </ul>
+
+        </nav>
+
+        <article>
+            <h1>Judul Artikel</h1>
+            <p>Percobaan membuat website</p>
+        </article>
+    </section>
+
+<footer>
+    <p>Copyright<i>@AryaYudha-234311007</i></p>
+</footer>
+</body>
+</html>
